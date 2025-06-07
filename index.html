@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="left-page-container">
+        <div id="hero-div">
+            <img id="logo" src="odin-lined.png" alt="odin's face logo">
+            <h1>ODIN</h1>
+        </div>
+        <small id="bg-image-credit">Port Townsend, United States by Lexi Laginess (@lexilaginess)</small>
+    </div>
+
+    <div id="right-page-container">
+        <p id="cta"><strong>This is not a real online service! 
+            You know you need something like 
+            this in your life to help you realize your deepest
+            dreams. Sign up <em>now</em> to get started.</strong></p>
+        <p id="slogan"><strong>You <em>know</em> you want to.</strong></p>
+        <form>
+            <div id="field-container">
+                <p id="encouragement">Let's do this!</p>
+                <div id="input-container">
+                    <div>
+                        <label for="first-name">First Name</label><input id="first-name" autofocus placeholder="John" required maxlength="20" name="first-name" type="text">
+                        <label for="email">Email</label><input id="email" placeholder="john_doe@gmail.com" name="email" type="email">
+                        <label for="password">Password</label><input id="password" placeholder="Password" name="password" type="text">
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name</label><input id="last-name" placeholder="Doe" name="last-name" type="text">
+                        <label for="phone-number">Phone Number</label><input id="phone-number" placeholder="0419563123" name="phone-number" type="tel">
+                        <label for="confirm-password">Confirm Password</label><input id="confirm-password" placeholder="Password" name="confirm-password" type="text">
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+        <small id="log-in-text">Already have an account? <a id="log-in-link">Sign In</a></small>
+    </div>
+</body>
+</html>
